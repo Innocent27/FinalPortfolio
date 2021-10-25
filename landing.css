@@ -6,7 +6,7 @@
       rgba(45, 45, 58, 0.7) 50%,
       rgba(43, 43, 53, 0.7) 100%
     ),
-    url("../images/helderberg2.jpg");
+    url("/assets/images/pexels.jpeg");
   background-size: cover;
   background-position: center 45%;
   width: 100%;
