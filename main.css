@@ -1,0 +1,60 @@
+/* Variables */
+:root {
+  --blueGray1: #191923;
+  --blueGray2: #212125;
+  --blueGray3: #232327;
+  --blueGray4: #252529;
+  --blueGray5: #272731;
+  --blueGray6: #292933;
+  --blueGray7: #313135;
+  --blueGray8: #333337;
+  --blueGray9: #353539;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  padding: 10%;
+  min-height: 98vh;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.content {
+  display: flex;
+  background-color: var(--blueGray1);
+  padding: 3%;
+  color: white;
+  width: 100%;
+  overflow-x: hidden;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.content main {
+  width: 100%;
+  background-color: var(--blueGray2);
+  padding: 10px;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.section-heading {
+  /* border-bottom: 2px solid #999; */
+  width: fit-content;
+  margin-bottom: 40px;
+  color: #999;
+  text-transform: uppercase;
+}
