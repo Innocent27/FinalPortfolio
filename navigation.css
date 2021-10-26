@@ -16,7 +16,7 @@
   background-color: RGB(140, 157, 173);
   right: 0;
   top: -100%;
-  transition: top 0.2s linear;
+  transition: top 0.4s linear;
 }
 .nav-link {
   height: fit-content;
