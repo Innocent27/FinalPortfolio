@@ -1,0 +1,62 @@
+/* HISTORY */
+#work-education {
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blueGray2);
+}
+
+.timeline {
+  display: grid;
+  grid-template-areas:
+    "first line ....."
+    ".... line second"
+    "third line ....."
+    ".... line fourth";
+
+  grid-template-columns: 49% 2% 49%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.line {
+  height: 100%;
+  background-color: var(--blueGray9);
+  grid-area: line;
+  width: 100%;
+}
+.timeline-section {
+  background-color: var(--blueGray6);
+  padding: 10%;
+  margin: 2%;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+.timeline-section:nth-of-type(1) {
+  grid-area: first;
+}
+.timeline-section:nth-of-type(2) {
+  grid-area: second;
+}
+.timeline-section:nth-of-type(3) {
+  grid-area: third;
+}
+.timeline-section:nth-of-type(4) {
+  grid-area: fourth;
+}
+
+.timeline-section:nth-of-type(even) {
+  text-align: right;
+}
+
+@media screen and (max-width: 720px) {
+  .timeline {
+    grid-template-areas:
+      "line first"
+      "line second"
+      "line third"
+      "line fourth";
+    grid-template-columns: 2% 98%;
+  }
+  .timeline-section:nth-of-type(even) {
+    text-align: left;
+  }
+}

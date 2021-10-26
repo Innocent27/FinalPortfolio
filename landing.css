@@ -2,11 +2,12 @@
 #landing {
   background: linear-gradient(
       90deg,
-      rgba(45, 45, 58, 0.9) 15%,
-      rgba(45, 45, 58, 0.7) 50%,
+      rgba(45, 45, 58, 0.7) 15%,
+      rgba(45, 45, 58, 0.1) 100%,
       rgba(43, 43, 53, 0.7) 100%
     ),
-    url("/assets/images/sunrise.jpeg");
+    url("/assets/images/blender2.jpg");
+
   background-size: cover;
   background-position: center 45%;
   width: 100%;
@@ -20,24 +21,28 @@
   box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
 }
 
-#landing h1 {
-  font-weight: 1000;
+/* #landing > h2 {
   text-transform: uppercase;
-}
+  line-height: 1;
+  font-weight: 1000;
+} */
 #landing > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
   height: 50%;
+  text-transform: uppercase;
 }
 .landing-profile {
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
+  /* -webkit-filter: drop-shadow(5px 5px 5px #222); */
+  /* filter: drop-shadow(5px 5px 5px #222); */
   /* margin-top: -30px; */
-  margin-left: -10%;
-  align-self: flex-end;
-  height: 110%;
+  /* margin-left: -10%; */
+  /* align-self: flex-end; */
+  /* height: 110%; */
+  border-radius: 50%;
+  height: 100%;
 }
 #landing a {
   text-decoration: none;

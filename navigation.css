@@ -2,22 +2,21 @@
 .nav-bar {
   position: fixed;
   display: flex;
-  /* visibility: hidden; */
   z-index: 100;
 }
 .nav-links {
   position: fixed;
-  width: 100%;
+  width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   list-style-type: none;
   justify-content: center;
   align-items: center;
-  background-color: var(--blueGray1);
+  background-color: RGB(140, 157, 173);
   right: 0;
   top: -100%;
-  transition: top 0.4s linear;
+  transition: top 0.2s linear;
 }
 .nav-link {
   height: fit-content;
