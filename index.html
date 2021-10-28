@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="testimonials.css">
+    <link rel="stylesheet" href="contact.css">
     <!-- script responsible for hamburger menu -->
     <script src="6dcbff845d.js"></script>
     <!-- <script
@@ -44,10 +45,10 @@
             <a onclick="toggleNav()" href="#projects">Projects</a>
           </li>
           <li class="nav-link">
-            <a onclick="toggleNav()" href="#contact">Contact</a>
+            <a onclick="toggleNav()" href="#testimony">Testimonials</a>
           </li>
           <li class="nav-link">
-            <a onclick="toggleNav()" href="#testimony">Testimonials</a>
+            <a onclick="toggleNav()" href="#contact">Contact</a>
           </li>
         </ul>
         <button class="nav-button" onclick="toggleNav()">
@@ -134,12 +135,10 @@
 
                 <div class="timeline-section" data-aos="fade-left">
                 <h4>2021-Present</h4>
-                <h6>Life Choices - Intermediate Developer / Lecturer</h6>
+                <h6>Life Choices - Front end developer internship</h6>
                 <p>My duties were:</p>
                 <ul>
-                  <li>Develop Frontend course</li>
-                  <li>Teach content to underprivelaged youth</li>
-                  <li>Develop end-to-end solutions for clients</li>
+                  <li>Website design</li>
                 </ul>
               </div>
             </div>
@@ -149,37 +148,17 @@
        <section id="skills">
         <div data-aos="fade-right">
           <h2 class="section-heading">Skills</h2>
-        <p>HTML</p>
+        <p>HTML5</p>
           <div class="container">
-            <div class="skills html">90%</div>
+            <div class="skills html">70%</div>
           </div>
-        <p>CSS</p>
+        <p>CSS3</p>
           <div class="container">
             <div class="skills css">60%</div>
          </div>
-        <p>Java</p>
-          <div class="container">
-            <div class="skills java">65%</div>
-          </div>
         <p>Ms Suite</p>
           <div class="container">
             <div class="skills suite">90%</div>
-          </div>
-        <p>Matlab simulink</p>
-          <div class="container">
-            <div class="skills mat">90%</div>
-          </div>
-        <p>SCADA</p>
-          <div class="container">
-            <div class="skills scada">70%</div>
-          </div>
-        <p>Data Structures</p>
-          <div class="container">
-            <div class="skills data">60%</div>
-          </div>
-        <p>Analysis of Algorithm</p>
-          <div class="container">
-            <div class="algo">60%</div>
           </div>
         </div>
         <div class="portfolio-image" data-aos="fade-left"></div>
@@ -292,11 +271,21 @@
               extremely gentle 
               and understanding. always willing to learn.
               </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
           <div class="portfolio-image" data-aos="fade-left"></div>
+        </section>
+        <!--Contact section-->
+        <section id="contact" data-aos="fade-up">
+          <h2 class="section-heading">Contact Me</h2>
+          <form action="https://formspree.io/f/mvodyoee" method="POST" id="contact-form">
+            <input class="form-input" type="text" name="name"placeholder="Name"/>
+            <input class="form-input"type="email"name="_replyto" placeholder="Email"/>
+            <textarea class="form-input" name="message" placeholder="Message" ></textarea>
+            <button class="form-submit" type="submit">Send</button>
+          </form>
         </section>
 
 
