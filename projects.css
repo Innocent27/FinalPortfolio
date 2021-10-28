@@ -1,4 +1,4 @@
-.main {
+.mainCards {
 	margin: 2%;
 	border-radius: 25%;
 }
@@ -13,8 +13,8 @@
 }
 .image img {
 	width: 100%;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
+	/* border-top-right-radius: 5px;
+	border-top-left-radius: 5px; */
 }
 .project {
 	background-color: #f44336;
@@ -29,7 +29,7 @@
 	text-align: center;
 	padding: 10px;
 }
-h1 {
+.titleh {
 	font-size: 20px;
 	color: #000;
 }

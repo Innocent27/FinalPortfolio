@@ -3,22 +3,64 @@
   <head>
     <title>Cards</title>
     <link rel="stylesheet" href="projects.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
    <body>
-    <div class="main">
-      <!--cards -->
-      <div class="card">
-        <div class="image">
-          <img src="/assets/images/bridge.jpeg" />
-        </div>
-        <div class="title">
-          <h1 class="h1">Joburg</h1>
-        </div>
-        <div class="des">
-          <p>My first website project</p>
-          <a class="project" href="https://github.com/Innocent27/mywebsite.git" target="_blank">GitHub Link</a>
-        </div>
+    <div class="w3-content" style="max-width:400px">
+      <div class="mySlides w3-container w3-red">
+        
+        <div class="main">
+          <!--Project 1 -->
+          <div class="card">
+            <div class="image-img">
+              <img src="/assets/images/bridge.jpeg" />
+            </div>
+            <div class="title">
+              <h1 class="titleh">My website</h1>
+            </div>
+            <div class="des">
+              <p class="titlep">My first website project</p>
+              <a class="project" href="https://github.com/Innocent27/mywebsite.git" target="_blank">GitHub Link</a>
+            </div>
+          </div> 
+        </div>   
+      <div class="mySlides w3-container w3-xlarge w3-white w3-card-4">
+        <div class="main">
+          <!--Project 1 -->
+          <div class="card">
+            <div class="image-img">
+              <img src="/assets/images/bridge.jpeg" />
+            </div>
+            <div class="title">
+              <h1 class="titleh">My website</h1>
+            </div>
+            <div class="des">
+              <p class="titlep">My first website project</p>
+              <a class="project" href="https://github.com/Innocent27/mywebsite.git" target="_blank">GitHub Link</a>
+            </div>
+          </div> 
+        </div> 
       </div>
-      </div>
+    </div>
+
+    <script>
+      var slideIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 2000); 
+      }
+      </script>
+      
+
+
   </body>
 </html>
