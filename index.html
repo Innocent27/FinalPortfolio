@@ -4,26 +4,27 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Lindokuhle Nkamela</title>
-    <link rel="stylesheet" href="aos.css">
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css"rel="stylesheet"/> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css"rel="stylesheet"/>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="navigation.css">
-    <link rel="stylesheet" href="landing.css">
-    <link rel="stylesheet" href="about.css"> 
-    <link rel="stylesheet" href="education.css">
-    <link rel="stylesheet" href="skills.css">
-    <link rel="stylesheet" href="projects.css">
-    <link rel="stylesheet" href="testimonials.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/navigation.css">
+    <link rel="stylesheet" href="assets/styles/landing.css">
+    <link rel="stylesheet" href="assets/styles/about.css"> 
+    <link rel="stylesheet" href="assets/styles/education.css">
+    <link rel="stylesheet" href="assets/styles/skills.css">
+    <link rel="stylesheet" href="assets/styles/projects.css">
+    <link rel="stylesheet" href="assets/styles/testimonials.css">
+    <link rel="stylesheet" href="assets/styles/contact.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- script responsible for hamburger menu -->
-    <script src="6dcbff845d.js"></script>
-    <!-- <script
-      src="https://kit.fontawesome.com/6dcbff845d.js"
-      crossorigin="anonymous"
-    ></script> -->
+    <script src="assets/scripts/6dcbff845d.js"></script>
+    <!--script responsible for calling navbar links-->
+    <script src="assets/scripts/navbar.js"></script>
+    <!--script responsible for fading effects-->
+    <script src="assets/scripts/aos.js"></script>
 </head>
 <body>
      <!-- Navigation bar -->
@@ -55,6 +56,34 @@
           <i class="fas fa-bars"></i>
         </button>
       </nav>
+      <!--footer-->
+          <!-- Social Icons -->
+    <div class="social-icons">
+      <a
+        class="social-icon"
+        target="_blank"
+        href="https://github.com/Innocent27"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        class="social-icon"
+        target="_blank"
+        href=""
+        ><i class="fab fa-codepen"></i
+      ></a>
+      <a class="social-icon" target="_blank" href="https://chryptolite.itch.io/"
+        ><i class="fab fa-itch-io"></i
+      ></a>
+      <a
+        class="social-icon"
+        target="_blank"
+        href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a href="mailto:lindokuhlenkamela@gmail.com" class="social-icon"
+        ><i class="far fa-envelope"></i
+      ></a>
+    </div>
 
       <div class="content" id="index">
         <!-- MAIN CONTENT -->
@@ -72,24 +101,23 @@
               <a href="#about">Find out more</a>
             </div>
           </header>
-  
        <!-- About Section -->
        <section id="about">
         <div data-aos="fade-right">
           <h2 class="section-heading">About Me</h2>
-          <p>
-            I am a hard-working individual who 
-            delivers quality work and can work 
-            well under pressure. I am fascinated with 
-            cybersecurity and want to design systems 
-            that can not be hacked to protect data for 
-            individuals who cannot protect 
-            themselves against cyber attacks.  
+            <p>
+              I am a hard-working individual who 
+              delivers quality work and can work 
+              well under pressure. I am fascinated with 
+              cybersecurity and want to design systems 
+              that can not be hacked to protect data for 
+              individuals who cannot protect 
+              themselves against cyber attacks.
+            </p>
           </p>
         </div>
         <div class="portfolio-image" data-aos="fade-left"></div>
       </section>
-
             <!-- Work and Education -->
             <section id="education">
               <div data-aos="fade-right"></div>
@@ -143,7 +171,6 @@
               </div>
             </div>
           </section>
-
                <!-- Skills sections -->
        <section id="skills">
         <div data-aos="fade-right">
@@ -259,7 +286,6 @@
           </div>
         </div>
       </div>
-
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -287,33 +313,13 @@
             <button class="form-submit" type="submit">Send</button>
           </form>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-       <!-- Script Imports -->
-    <script src="./scripts/scripts.js"></script>
-    <script src="aos.js"></script>
+         <!-- Script Imports -->
+        <!-- <script src="./scripts/scripts.js"></script> -->
+       <script src="assets/scripts/aos.js"></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-     <script>
+      <!--calling script for fading effect-->
+    <script>
       AOS.init();
     </script>
-    <script>
-      function toggleNav() {
-      document.getElementById("nav-links").classList.toggle("active");
-    }
-    function scrollToSection(elementID) {
-      toggleNav();
-      document.getElementById(elementID).scrollIntoView();
-    }
-    </script> 
 </body>
 </html>
