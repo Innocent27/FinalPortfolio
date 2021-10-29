@@ -42,7 +42,7 @@
 	top: 2%;
 	right: 2%;
 	background: none;
-	color: white; */
+	color: white;
 	padding: 10px;
 	outline: none;
 	border: none;
@@ -52,16 +52,16 @@
 }
 
 @media screen and (max-width: 720px) {
-  .nav-button {
-    top: 3%;
-    right: 5%;
-  }
+	.nav-button {
+		top: 3%;
+		right: 5%;
+	}
 }
 @media screen and (max-width: 760px) {
 	.nav-bar {
 		background-color: white;
-  }
-  .nav-button{
-    color: tomato;
-  }
+	}
+	.nav-button {
+		color: tomato;
+	}
 }
