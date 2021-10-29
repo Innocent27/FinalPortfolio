@@ -51,12 +51,12 @@
 	transition: color 0.2s linear;
 }
 
-/* @media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
   .nav-button {
     top: 3%;
     right: 5%;
   }
-} */
+}
 @media screen and (max-width: 760px) {
 	.nav-bar {
 		background-color: white;
