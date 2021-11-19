@@ -19,7 +19,7 @@
 html,
 body {
 	scroll-behavior: smooth;
-	font-family: sans-serif;
+	/* font-family: "Sofia", sans-serif; */
 	width: 100vw;
 	overflow-x: hidden;
 }
@@ -55,6 +55,7 @@ section {
 	margin-bottom: 40px;
 	color: #999;
 	text-transform: uppercase;
+	text-align: center;
 }
 .social-icons {
 	position: fixed;
@@ -74,4 +75,8 @@ section {
 }
 .social-icon:hover i {
 	color: var(--blueGray9);
+}
+h4 {
+	font-family: sans-serif;
+	color: var(--blueGray1);
 }

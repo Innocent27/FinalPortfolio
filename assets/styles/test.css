@@ -1,45 +1,15 @@
-/* <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"> */
-/* *,
-*:after,
-*:before {
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
-	cursor: default;
-} */
-
-/* html {
-	width: 100%;
-	height: auto;
-}
-
-body {
-	font-family: "Montserrat", sans-serif !important;
-	width: 100%;
-	height: auto;
-	font-size: 14px;
-	/*     font-family: Dubai-Light; */
-	background: #fff;
-	overflow: hidden;
-} */
 .testim {
 	width: 100%;
 	position: absolute;
+	background-color: white;
 	top: 50%;
-	-webkit-transform: translatey(-50%);
+	border-radius: 25px;
+	border: 7px solid #73ad21;
+	/* -webkit-transform: translatey(-50%);
 	-moz-transform: translatey(-50%);
 	-ms-transform: translatey(-50%);
 	-o-transform: translatey(-50%);
-	transform: translatey(-50%);
+	transform: translatey(-50%); */
 }
 
 .testim .wrap {
