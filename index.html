@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="testProject.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
     <!-- script responsible for hamburger menu -->
@@ -41,7 +42,7 @@
             <a onclick="toggleNav()" href="#about">About Me</a>
           </li>
           <li class="nav-link">
-            <a onclick="toggleNav()" href="#education">Work and Education</a>
+            <a onclick="toggleNav()" href="#education">Resume</a>
           </li>
           <li class="nav-link">
             <a onclick="toggleNav()" href="#skills">Skills</a>
@@ -125,7 +126,7 @@
           <div class="line"></div>
             <div class="timeline-section" data-aos="fade-right">
               <h4>2020</h4>
-                <h5>Stellenbosch University-Uncomplete</h5>
+                <h5>Bsc Applied Mathematics from Stellenbosch University-Uncomplete</h5>
                   <p>Courses:</p>
                     <ul>
                       <li>Applied Mathematics</li>
@@ -221,54 +222,24 @@
         </div>
         <div class="portfolio-image" data-aos="fade-left"></div>
       </section>
-          <!-- Projects -->
-      <section id="projects">
-          <div data-aos="fade-right">
-            <h2 class="section-heading">Projects</h2>
-            <div class="main">
-              <!--Project 1 -->
-              <div class="card">
-                <div class="image-img">
-                  <img src="/assets/images/project1.png" />
-                </div>
-                <div class="title">
-                  <h1 class="titleh">My Calculator</h1>
-                </div>
-                <div class="des">
-                  <p class="titlep">My first website project</p>
-                  <a class="project" href="https://lindocalculator.netlify.app/" target="_blank">GitHub Link</a>
-                </div>
-              </div>
-              <!--Project 2-->
-              <div class="card">
-                <div class="image-img">
-                  <img src="/assets/images/project2.png" width="200px" height="200px"/>
-                </div>
-                <div class="title">
-                  <h1 class="titleh">Sneaker-shop</h1>
-                </div>
-                <div class="des">
-                  <p class="titlep">My second project</p>
-                  <a class="project" href="https://github.com/Innocent27/Sneaker-shop.git" target="_blank">GitHub Link</a>
-                </div>
-              </div>
-              <!--Project 3-->
-              <div class="card">
-                <div class="image-img">
-                  <img src="/assets/images/project3.png" width="200px" height="200px"/>
-                </div>
-                <div class="title">
-                  <h1 class="titleh">Online store</h1>
-                </div>
-                <div class="des">
-                  <p class="titlep">My first website project</p>
-                  <a class="project" href="https://github.com/Innocent27/onlineStore.git" target="_blank">GitHub Link</a>
-                </div>
-              </div>
-            </div>
+         <!--Projects-->
+         <section id="projects">
+          <h2 class="section-heading">projects</h2>
+          <!-- Carousel -->
+          <div id="carousel">
+            <!-- Carousel Container -->
+            <div id="carousel-container"></div>
+            <!-- Carousel Bullets -->
+            <div id="carousel-bullets"></div>
+            <!-- Carousel Buttons -->
+            <button id="carousel-left" onclick="changeSlide(-1)">
+              <i class="fas fa-angle-left"></i>
+            </button>
+            <button id="carousel-right" onclick="changeSlide(1)">
+              <i class="fas fa-angle-right"></i>
+            </button>
           </div>
-          <div class="portfolio-image" data-aos="fade-left"></div>
-      </section>
+        </section>
             <!--Testimonial section-->
       <section id="testimony">
             <div data-aos="fade-right">
@@ -288,14 +259,14 @@
                                 <div id="testim-content" class="cont">
                                     <div class="active">
                                         <div class="img"><img src="assets/images/alex.jpg" alt=""></div>
-                                        <h2>Mr. Alex Sexwale(Lecture @ Life Choices Academy</h2>
+                                        <h2>Alex Sexwale</h2>
                                         <p>"Lindokuhle Nkamela is dedicated like tackling all 
                                             all challenges presented to him, He has a bright future ahead
                                             of him" </p>                    
                                     </div>
                                     <div>
                                         <div class="img"><img src="assets/images/lilita.jpg" alt=""></div>
-                                        <h2>Ms. Lilita Ngele(Student@Life Choices Academy)</h2>
+                                        <h2>Lilita Ngele</h2>
                                         <p>hmmm.. well Lindokuhle is a helpful guy 
                                             and extremely gentle 
                                             and understanding. 
@@ -303,14 +274,14 @@
                                     </div>
                                     <div>
                                         <div class="img"><img src="assets/images/Aphiwe.jpg" alt=""></div>
-                                        <h2>Mr. Aphiwe Mpeto</h2>
+                                        <h2>Aphiwe Mpeto</h2>
                                         <p>hmmm.. well Lindokuhle is a helpful guy and 
                                             extremely gentle 
                                             and understanding. always willing to learn.</p>                    
                                     </div>
                                     <div>
                                         <div class="img"><img src="assets/images/unathi.jpg" alt=""></div>
-                                        <h2>Ms. Unathi Qolweni</h2>
+                                        <h2>Unathi Qolweni</h2>
                                         <p>Lindokuhle  pays attention to improve the 
                                             aesthetics of the site as well as the functionality. Throughout the entire process he is responsive, and willing to work through issues as they arise. It’s obvious he takes tremendous pride in his work, 
                                             and I wouldn’t hesitate to recommend or 
@@ -318,7 +289,7 @@
                                     </div>
                                     <div>
                                         <div class="img"><img src="assets/images/Sindi.jpg" alt=""></div>
-                                        <h2>Ms. Sindile Makhathini</h2>
+                                        <h2>Sindile Makhathini</h2>
                                         <p>I met Lindokuhle at the Academy and I 
                                             have observed that he is a quiet 
                                             and hardworking individual. He is a 
@@ -373,10 +344,10 @@
           <ul class="menu">
             <li class="menu__item"><a class="menu__link" href="#index">Home</a></li>
             <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
-            <li class="menu__item"><a class="menu__link" href="#education">Work&Education</a></li>
+            <li class="menu__item"><a class="menu__link" href="#education">Resume</a></li>
             <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
             <li class="menu__item"><a class="menu__link" href="#projects">Projects</a></li>
-            <li class="menu__item"><a class="menu__link" href="#testimonials">testimonials</a></li>
+            <li class="menu__item"><a class="menu__link" href="#testimonials">Testimonials</a></li>
             <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
           </ul>
           <p>&copy;2021 Lindokuhle Nkamela | All Rights Reserved</p>
@@ -402,5 +373,6 @@
     <script src="https://use.fontawesome.com/1744f3f671.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
