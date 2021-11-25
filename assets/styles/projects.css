@@ -1,36 +1,48 @@
-.mainCards {
+/* .mainCards {
 	margin: 2%;
 	border-radius: 25%;
-}
+	display: flex;
+} */
 .card {
-	width: 25%;
+	float: left;
+	font-size: 1.2em;
+	margin: 1% 0 0 1%;
+	perspective: 800px;
+	width: 23.7%;
+
+	/* width: 25%;
 	display: inline-block;
 	box-shadow: 2px 2px 20px black;
 	border-radius: 5px;
 	margin: 2%;
 	grid-template-columns: repeat(2, 1fr);
-	text-align: center;
+	text-align: center; */
+}
+.main {
+	background-color: white;
 }
 .image-img {
 	width: 100%;
+	border-radius: 25px;
+	border: 7px solid #73ad21;
+	box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
 	/* border-top-right-radius: 5px;
 	border-top-left-radius: 5px; */
 }
-.image-img:hover {
+/* .image-img:hover {
 	background-color: seagreen;
-}
+} */
 .project {
-	background-color: #f44336;
+	background-color: #73ad21;
 	color: white;
 	padding: 14px 25px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	border-radius: 50%;
+	margin: 20px;
+	/* border-radius: 50%; */
 }
-.project:hover {
-	background-color: seagreen;
-}
+
 .title {
 	text-align: center;
 	padding: 10px;
@@ -45,4 +57,16 @@
 	padding-top: 10px;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+}
+@media screen and (max-width: 960px) {
+	.card {
+		margin-left: 2.8%;
+		margin-top: 3%;
+		width: 46%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.card {
+		width: 94.5%;
+	}
 }
