@@ -77,6 +77,5 @@ section {
 	color: var(--blueGray9);
 }
 h4 {
-	font-family: sans-serif;
-	color: white;
+	font-family: "Sofia", sans-serif;
 }

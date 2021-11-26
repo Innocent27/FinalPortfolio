@@ -1,42 +1,44 @@
-/* ABOUT */
-#about {
-	align-items: center;
-	flex-direction: row;
-	background-color: var(--blueGray4);
+*:focus {
+	outline: none;
 }
-#about p {
-	margin-bottom: 20px;
-	text-size-adjust: 20px;
-	color: #999;
+/*  Main Page  */
+#page {
+	margin: 53px auto;
+	max-width: 1000px;
+	background-color: #333;
+	border-radius: 3px;
 }
-#about .portfolio-image {
-	width: 100%;
-	height: 50vh;
-	margin-left: 5%;
-	object-fit: contain;
-	background-size: cover;
-	background-position: center;
-	transition: all 0.3s linear;
-	animation: changeBG 8s linear infinite;
-	box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+/*    About Section    */
+#page #about {
+	background-color: #444;
 }
-@keyframes changeBG {
-	0%,
-	100% {
-		background-image: url(/assets/images/4.jpg);
-		border-radius: 81% 19% 70% 30%;
-	}
-	50% {
-		background-image: url(/assets/images/7.jpg);
-		border-radius: 43% 57% 65% 35%;
-	}
-	60% {
-		background-image: url(/assets/images/8.jpg);
-		border-radius: 60% 40% 38% 62%;
-	}
+#page #about img {
+	display: inline-block;
+	width: 200px;
+	padding: 15px;
+	padding-left: 0px;
+	border-radius: 50%;
 }
-@media screen and (max-width: 760px) {
-	.portfolio-image {
-		display: none;
-	}
+#page #about div {
+	width: 60%;
+	display: inline-block;
+	color: #ddd;
+	margin: 70px;
+	padding-right: 15px;
+	border-right: 3px rgb(44, 182, 182) dashed;
+}
+#page #about div .av {
+	text-align: center;
+	color: rgb(44, 182, 182);
+}
+#page #about div p {
+	font-size: 1.2em;
+	text-align: justify;
+}
+#page #about div p {
+	/* 	color: rgb(44, 182, 182); */
+}
+
+div#breakLine {
+	border-bottom: 5px #fff dashed;
 }
