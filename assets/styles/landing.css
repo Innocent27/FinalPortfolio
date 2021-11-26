@@ -82,6 +82,7 @@
 	border: solid #fff 1px;
 	margin-top: 25px;
 	opacity: 0.7;
+	border-radius: 25px;
 }
 
 .btn:hover {

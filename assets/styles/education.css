@@ -1,8 +1,8 @@
 /* work and education section */
 #education {
-	/* flex-direction: column;
+	flex-direction: column;
 	align-items: center;
-	background-color: var(--blueGray2); */
+	background-color: var(--blueGray2);
 }
 
 .timeline {

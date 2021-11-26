@@ -11,7 +11,7 @@
 /*    About Section    */
 /* #page #about {
 	/* background-color: #444; */
-} */
+} 
 #page #about img {
 	display: inline-block;
 	width: 200px;
@@ -41,4 +41,22 @@
 
 div#breakLine {
 	border-bottom: 5px rgb(44, 182, 182) dashed;
+}
+
+@media screen and (max-width: 480px) {
+	#page #about #page #about div img{
+		/* background-color: red;
+		width: 30%;
+		display: inline-block;
+		color: #ddd;
+		margin: 65px;
+		padding-right: 10px;
+		border-right: 3px rgb(44, 182, 182) dashed; */
+		
+		/* margin: 20px auto;
+		max-width: 500px;
+		display: inline-block;
+		width: 100px;
+		padding: 7px; */
+	}
 }
