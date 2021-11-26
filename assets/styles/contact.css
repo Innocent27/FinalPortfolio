@@ -11,9 +11,9 @@
 	width: 100%;
 	padding: 2%;
 	/* border-radius: 20px; */
-	border-radius: 25px;
-	border: 7px solid #73ad21;
-	box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+	/* border-radius: 25px; */
+	/* border: 7px solid #73ad21; */
+	/* box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%); */
 }
 .form-input,
 .form-submit {

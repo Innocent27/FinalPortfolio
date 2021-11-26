@@ -5,13 +5,13 @@
 #page {
 	margin: 53px auto;
 	max-width: 1000px;
-	background-color: #333;
+	background-color: #152945;
 	border-radius: 3px;
 }
 /*    About Section    */
-#page #about {
-	background-color: #444;
-}
+/* #page #about {
+	/* background-color: #444; */
+} */
 #page #about img {
 	display: inline-block;
 	width: 200px;
@@ -40,5 +40,5 @@
 }
 
 div#breakLine {
-	border-bottom: 5px #fff dashed;
+	border-bottom: 5px rgb(44, 182, 182) dashed;
 }

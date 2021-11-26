@@ -17,15 +17,14 @@
     <link rel="stylesheet" href="assets/styles/skills.css">
     <link rel="stylesheet" href="assets/styles/projects.css">
     <link rel="stylesheet" href="assets/styles/contact.css">
-    <link rel="stylesheet" href="assets/styles/test.css">
+    <link rel="stylesheet" href="assets/styles/testimonials.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="testProject.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
     <!-- script responsible for hamburger menu -->
-    <script src="assets/scripts/6dcbff845d.js"></script>
+    <script src="assets/scripts/menu.js"></script>
     <!--script responsible for calling navbar links-->
     <script src="assets/scripts/navbar.js"></script>
     <!--script responsible for fading effects-->
@@ -67,8 +66,8 @@
       <a
         class="social-icon"
         target="_blank"
-        href="https://github.com/Innocent27"
-        ><i class="fab fa-github"></i
+        href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/"
+      ><i class="fab fa-linkedin"></i
       ></a>
       <a href="mailto:lindokuhlenkamela@gmail.com" class="social-icon"
       ><i class="far fa-envelope"></i
@@ -76,17 +75,16 @@
       <a
         class="social-icon"
         target="_blank"
-        href="https://www.linkedin.com/in/lindokuhle-nkamela-b779a8126/"
-      ><i class="fab fa-linkedin"></i
+        href="https://github.com/Innocent27"
+        ><i class="fab fa-github"></i
       ></a>
+     
+      
       <a
         class="social-icon"
         target="_blank"
-        href="#index"
+        href="https://codepen.io/innocent27/pen/XWgyGbB"
         ><i class="fab fa-codepen"></i
-      ></a>
-      <a class="social-icon" target="_blank" href="#index"
-        ><i class="fab fa-itch-io"></i
       ></a>    
     </div>
 
@@ -94,14 +92,6 @@
         <!-- MAIN CONTENT -->
         <main>
           <!-- Landing Section -->
-          <!-- <header id="landing" data-aos="fade-up">
-            <img class="landing-profile" src="/assets/images/3.jpg" alt="Lindokuhle Nkamela"
-            />
-            <div>
-              <h1 class="font-effect-fire">Hi, I am <span>Lindokuhle Innocent Nkamela</span></h1>
-              <h2 class="font-effect-fire">Aspiring fullstack developer</h2>
-            </div>
-          </header> -->
           <section class="showcase">
             <div class="video-container">
               <video src="/assets/images/video.mov" autoplay muted loop></video>
@@ -128,7 +118,7 @@
                     Also a huge fan of Artificial Intelligence and renewable energy.
                   </p>
                 </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pessoa_Neutra.svg/1024px-Pessoa_Neutra.svg.png" alt="Portrait">
+                <img src="/assets/images/about.jpeg" alt="Portrait">
               </div>
               
               <div id="breakLine"></div>
@@ -248,47 +238,36 @@
  <section id="projects">
   <div data-aos="fade-right">
     <h2 class="section-heading">Projects</h2>
-    <div class="main">
-      <!--Project 1 -->
-      <div class="card">
-        <div class="image-img">
-          <img src="/assets/images/project1.png" />
-        </div>
-        <!-- <div class="title">
-          <h1 class="titleh">My Calculator</h1>
-        </div> -->
-        <div class="des">
-          <p class="titlep">My first site</p>
-          <a class="project" href="https://myfirstwebsitelindo.netlify.app/" target="_blank">See more...</a>
-        </div>
-      </div>
-      <!--Project 2-->
-      <div class="card">
-        <div class="image-img">
-          <img src="/assets/images/project2.png" width="200px" height="200px"/>
-        </div>
-        <!-- <div class="title">
-          <h1 class="titleh">Sneaker-shop</h1>
-        </div> -->
-        <div class="des">
-          <p class="titlep">Calculator</p>
-          <a class="project" href="https://lindocalculator.netlify.app/">See more...</a>
-        </div>
-      </div>
-      <!--Project 3-->
-      <div class="card">
-        <div class="image-img">
-          <img src="/assets/images/project3.png" width="200px" height="200px"/>
-        </div>
-        <!-- <div class="title">
-          <h1 class="titleh">Online store</h1>
-        </div> -->
-        <div class="des">
-          <p class="titlep">My first website project</p>
-          <a class="project" href="https://github.com/Innocent27/onlineStore.git" target="_blank">GitHub Link</a>
-        </div>
-      </div>
+    <div class="projects-grid">
+      <a href="https://myfirstwebsitelindo.netlify.app/" target="_blank" class="project project-tile" id="proj-a">
+        <img class="project-img" src="https://i.ibb.co/8xv6z8v/Annotation-2020-03-14-115614.png" alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          My first site
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+  
+      <a href="https://lindocalculator.netlify.app/" target="_blank" class="project project-tile" id="proj-a">
+        <img class="project-image" src="https://i.ibb.co/GsHgfkX/Annotation-2020-03-14-120938.png" alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+         Calculator
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+  
+      <!-- <a href="https://github.com/Innocent27/onlineStore.git" target="_blank" class="project project-tile" id="proj-a">
+        <img class="project-image" src="https://i.ibb.co/xJjtdfS/Annotation-2020-03-14-121033.png" alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Online Shop
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a> -->
     </div>
+      
+    
   </div>
   <div class="portfolio-image" data-aos="fade-left"></div>
 </section>
