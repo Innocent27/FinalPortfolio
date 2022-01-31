@@ -3,17 +3,17 @@
 }
 /*  Main Page  */
 #about{
-  border: 10px solid white; 
+/*   border: 10px solid white;  */
   padding-top: 160px;
   padding-bottom: 70px;
   padding-right: 70px;
   padding-left: 70px;
-  height: 48vw; 
-  background: #292933;
+/*   height: 48vw; 
+  background: #292933; */
 }
-#img{
+/* #img{
   border-radius: 50%;
-}
+} */
 p,.card-title{
   color: white;
 }
